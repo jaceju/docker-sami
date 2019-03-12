@@ -7,7 +7,7 @@ A Docker Container for [Sami](https://github.com/FriendsOfPHP/Sami).
 Read the official [Sami Documentation](https://github.com/FriendsOfPHP/Sami) first.
 
 ```bash
-docker run --rm -v "$PWD:/docs" jaceju/sami update config.php
+docker run --rm -v "$PWD:/sami" jaceju/sami update config.php
 ```
 
 ## Build Docker Image
